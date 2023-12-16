@@ -21,6 +21,8 @@ Assuming you are using the Docker image:
 # Visualizations
 
 ## Day 14
+![day14](https://media.giphy.com/media/NZPFGCIXBuFoUeY1NY/giphy.gif)
+
 This uses the accelerometer readings from the JoyCon. Most of the boilerplate code here comes from the [sixaxis example](https://github.com/switchbrew/switch-examples/blob/master/hid/sixaxis/source/main.c).
   - The accelerometer readings and rocks are sampled after every delay to give an "animation" effect to the visualization. So a directional tilt doesn't need to finished, and we can change directions in the middle of a tilting "animation".
   - The load on the northern support beam is calculated in sync with the grid currently printed
